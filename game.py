@@ -43,4 +43,4 @@ def game():
             else:
                 print('Ваше число меньше загаданого')
     else:
-            print('Победа')
+            print('Победа! Поздравляем ' + winner_name)
