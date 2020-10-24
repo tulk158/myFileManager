@@ -52,12 +52,3 @@ def change_dir(name):
     print(os.getcwd())
 
 
-if __name__ == '__main__':
-    create_file('text.dat', 'some text')
-    create_folder('new_folder')
-    get_list()
-    get_list(True)
-    copy_file('new_folder', 'new2')
-    #delete_file('text.dat')
-    copy_file('text.dat', 'text2.dat')
-    save_info('abc')
